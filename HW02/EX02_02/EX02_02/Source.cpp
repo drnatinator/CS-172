@@ -20,6 +20,7 @@ public:
 		b = newB;
 		c = newC;
 	}
+																								//Derek - you need to have three geter functions for a,b, and c
 	double getDiscriminent() {
 		return discriminent = (b*b) - (4 * a*c);
 	}
