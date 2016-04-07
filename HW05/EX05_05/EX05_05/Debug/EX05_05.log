@@ -1,0 +1,20 @@
+﻿Build started 4/6/2016 10:03:55 PM.
+     1>Project "C:\Users\drnatinator\Source\Repos\NewRepo\EX05_05\EX05_05\EX05_05.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Course.cpp Source.cpp
+         Source.cpp
+     1>c:\users\drnatinator\source\repos\newrepo\ex05_05\ex05_05\source.cpp(19): error C3867: 'Course::getNumberOfStudents': non-standard syntax; use '&' to create a pointer to member
+     1>c:\users\drnatinator\source\repos\newrepo\ex05_05\ex05_05\source.cpp(19): error C2440: '=': cannot convert from 'int (__thiscall Course::* )(void)' to 'int'
+         c:\users\drnatinator\source\repos\newrepo\ex05_05\ex05_05\source.cpp(19): note: There is no context in which this conversion is possible
+     1>c:\users\drnatinator\source\repos\newrepo\ex05_05\ex05_05\source.cpp(21): error C3867: 'Course::getStudents': non-standard syntax; use '&' to create a pointer to member
+     1>c:\users\drnatinator\source\repos\newrepo\ex05_05\ex05_05\source.cpp(23): error C3867: 'Course::getNumberOfStudents': non-standard syntax; use '&' to create a pointer to member
+     1>c:\users\drnatinator\source\repos\newrepo\ex05_05\ex05_05\source.cpp(23): error C2440: '=': cannot convert from 'int (__thiscall Course::* )(void)' to 'int'
+         c:\users\drnatinator\source\repos\newrepo\ex05_05\ex05_05\source.cpp(23): note: There is no context in which this conversion is possible
+     1>c:\users\drnatinator\source\repos\newrepo\ex05_05\ex05_05\source.cpp(26): error C3867: 'Course::getStudents': non-standard syntax; use '&' to create a pointer to member
+         Course.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\drnatinator\Source\Repos\NewRepo\EX05_05\EX05_05\EX05_05.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.07
